@@ -1,0 +1,13 @@
+numpy
+sentence-transformers
+pypdf
+pymupdf
+python-docx
+requests
+PyQt6
+qtawesome
+llama-cpp-python
+faiss-cpu
+huggingface_hub
+python-dotenv
+psutil

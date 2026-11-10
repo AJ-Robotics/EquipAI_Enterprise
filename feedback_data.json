@@ -1,0 +1,363 @@
+[
+  {
+    "id": "717bae14-43d5-44b3-b19c-5281fff862eb",
+    "query": "hello",
+    "response": "According to the provided context, the scope of work for a hybrid multi-product manufacturing system comprising mechanical, electrical, and software modifications is aimed at converting an existing traditional machine into a hybrid system capable of handling multiple products with minimal mechanical, electrical, and software changes. The target system is to be equipped with robotic integration, gantry tool change, product\u2011specific grippers/tools, vision and scanner systems, robot-PLC communication, plug\u2011and\u2011play connectors, safety circuit integration, recipe\u2011based product selection, automatic robot and gantry program loading, Vision & Scanner System (M&S) parameters switching, error-proof changeover logic, robot EOT change, gantry tool change, fixture replacement, software recipe selection, and a 30-minute changeover time. The target changeover time includes both mechanical, electrical, and software changes, as well as changeover validation. The scope also includes mechanical drawings, electrical schematics, PLC & Robot programs, SOPs and training material, operator training, additions to the existing system's product design modifications, and support for additional products.",
+    "rating": 1,
+    "context": [
+      {
+        "score": 0.02902306616306305,
+        "metadata": {
+          "source": "temp_uploads\\Hybrid_Machine_Conversion_Scope_of_Work.docx",
+          "chunk_text": "Scope of Work (SoW) Conversion of Traditional Machine into Hybrid Multi\u2011Product Manufacturing System 1. Objective Convert an existing traditional machine into a hybrid, flexible manufacturing system capable of handling multiple products (initially two projects) with minimal mechanical, electrical, and software changeover. 2. Project Type RFQ\u2011ready Scope of Work for system integrator / automation partner. Machine Type: __________ (to be filled \u2013 e.g., Assembly / Testing / CNC / Special Purpose Machine). 3. Existing System (As\u2011Is) - Conventional machine with fixed tooling - Limited automation - Manual or time\u2011consuming changeover - Product\u2011specific setup 4. Target System (To\u2011Be) - Hybrid system with Robot + Gantry - Modular tooling - Vision / Scanner based adaptability - Software\u2011driven product changeover 5. Mechanical Scope 5.1 Robot Integration - Robot base design and mounting - Workspace and reach validation 5.2 Robot End\u2011of\u2011Tool (EOT) Change - Quick change EOT system - Product\u2011specific grippers/tools 5.3 Gantry Tool Change - Modular gantry tooling - Docking and fool\u2011proofing 5.4 Fixture & Nesting - Common base fixture - Product\u2011specific nests 6. Vision & Scanner System - Modular mounting brackets - Quick repositioning - Product\u2011wise calibration data 7. Electrical & Control Scope - PLC + HMI based control - Robot\u2011PLC communication - Plug\u2011and\u2011play connectors - Safety circuit integration 8. Software Scope - Recipe based product selection - Automatic robot & gantry program loading - Vision & scanner parameter switching - Error\u2011proof changeover logic 9. Changeover Requirement - Robot EOT change - Gantry tool change - Fixture replacement - Software recipe selection Target changeover time: \u2264 30 minutes 10. Testing & Validation - FAT for both products - Changeover validation - SAT at customer site 11. Documentation & Deliverables - Mechanical drawings - Electrical schematics - PLC & Robot programs - SOPs and training material 12. Training - Operator training - Maintenance training - Changeover procedure training 13. Future Scalability - Support for additional products - Additional EOTs and fixtures - Vision upgrades 14. Exclusions - Product design changes - Utilities modification unless specified"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0613cfe8-643e-4083-a0f6-fcea4a417d7b",
+    "query": "how to do motor error",
+    "response": "Error: 'choices'",
+    "rating": -1,
+    "context": [
+      {
+        "score": 0.47268736362457275,
+        "metadata": {
+          "source": "temp_uploads\\3HAC028197-PM-IRB-6660-en.pdf",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "in two of the motor attach- ment holes. 3 Make sure the pinion on the motor shaft is not damaged! Fit the motor, with guidance from the pins, making sure the motor pinion is properly mated to the gear of gearbox, axis 6. 4 Remove the guide pins.5 4 pcs: M8 x 25, tightening torque: 24 Nm. Secure the motor with its four attachment screws and plain washers. 6 Continues on next page 300 Product manual - IRB 6660 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.6.5 Replacement of motor, axis 6 Continued NoteAction xx0700000164 (Not applicable to robot variant IRB 6660 - 205/1.9!) Refit the strap securing the cooling elements. 7 \u2022 A: Strap \u2022 B: Cooling elements Disconnect the brake release voltage.8 Reconnect all connectors beneath the motor cover. 9 Make sure the cover is tightly sealed!Refit the cover on top of the motor with its five attachment screws. 10 Pendulum Calibration is described in Operating manual - Calibration Pen- dulum , enclosed with the calibration tools. Re-calibrate the robot.11 Axis Calibration is described inCalib- rating with Axis Calibration method on page 345 . General calibration information is in- cluded in section Calibration on page 333 . DANGER Make sure all safety requirements are met when performing the first test run. 12 Continues on next page Product manual - IRB 6660 301 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.6.5 Replacement of motor, axis 6 Continued Replacement of the motor axis 6 ( Foundry Plus) Robots with protection type Foundry Plus require special repair routines to maintain the tightness level. The repair must be done according to the previous repair procedure with the following additions. NoteAction DANGER Turn off all: \u2022 electric power supply to the robot \u2022 hydraulic pressure supply to the robot \u2022 air pressure supply to the robot Before entering the robot working area. 1 xx1500002524 Remove the rear motor cover by unscrewing the five attachment screws. 2 \u2022 A: Motor unit \u2022 B: Connection box \u2022 C: Attachment screw (5 pcs) \u2022 D: Rear motor cover \u2022 E: Gasket Continue to remove the motor unit, according to step 6 and forwards in Removal, motor on page 299 . 3 Note Keep the old rear motor cover with the air nipple. 4 Continues on next page 302 Product manual - IRB 6660 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.6.5 Replacement of motor, axis 6 Continued NoteAction xx1400000992 Remove old Loctite 574 flange sealant residues and other contamination from the contact sur- faces on both motor and gearbox. 5 xx1500002425 Remove the protection strip on thegasket and mount it on the motor. 6 \u2022 A: Attachment screw (4pcs) Mercasol 3106 \u2022 B: Motor unit \u2022 C: O-ring \u2022 D: Sikaflex in screw recesses \u2022 E: Tilt house \u2022 F: Washer \u2022 G: Rear motor cover \u2022 H: Sealing \u2022 J: Loctite 574 Apply Mercasol 3106 on the motor end cover.7"
+        }
+      },
+      {
+        "score": 0.46142250299453735,
+        "metadata": {
+          "source": "temp_uploads\\3HAC028197-PM-IRB-6660-en.pdf",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "repair proced- ure is completed, for calibration of the ro- bot. Creating new values requires possibility to move the robot. Read more about reference calibration for Axis Calibration in Product manual - IRB 4600 .If no previous reference values exist, and no new reference values can be created, then reference calibration is not possible. If the robot is to be calibrated with fine calibration: Remove all external cable packages ( DressPack) and tools from the robot. Removing motor axis 1 Use this procedure to remove the axis-1 motor. NoteAction Decide which calibration routine to use, and take actions accordingly prior to beginning the repair procedure. 1 DANGER Turn off all electric power, hydraulic and pneu- matic pressure supplies to the robot! 2 Continues on next page 270 Product manual - IRB 6660 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.6.1 Replacing motor, axis 1 Continued NoteAction xx1000001092 Remove themotor cover in order to get access to the connectors on top of the motor. 3 Part: Motor cover xx1000001094 Remove the cable gland cover at the motor cable exit. Note Make sure the gasket is undamaged! Replace if damaged. 4 Part: Position of Cable gland cover Disconnect all connectors beneath the motor cover. 5 Connect to connector R2.MP1 \u2022 + : pin 2 \u2022 -: pin 5 In order to release the brake, connect the 24 VDC power supply. 6 xx1000001090 Remove the attachment screws of the motor.7 Parts: Motor axis 1 Attachment screw (4 pcs) Washer (4 pcs) Pinion Always use removal screws and tools in pairs! If required, press the motor out of position by fitting two screws in the holes on the motor for pressing out the motor. 8 Continues on next page Product manual - IRB 6660 271 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.6.1 Replacing motor, axis 1 Continued NoteAction CAUTION The motor weighs 29 kg! All lifting equipment used must be sized accordingly! 9 xx1000001021 Remove the motor by carefully lifting it straight up to get the pinion away from gear. CAUTION Be careful not to damage the pinion in the pro- cess! 10 Disconnect the brake release voltage.11 Check the pinion. If there is any damage, the pinion must be replaced. 12 Foundry Plus:13 Remove old Loctite 574 flange sealant residues and other contamination from the contact sur- faces on both motor and gearbox. Refitting motor axis 1 This procedure describes how to refit motor axis 1. NoteAction xx1000001096 Make sure the o-ring on the circumference of the motor is seated properly. Lightly lubricate the o-ring with grease. 1 Parts: Circumference of motor O-ring Note The o-ring must be replaced when re- placing the motor. Continues on next page 272 Product manual - IRB 6660 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.6.1 Replacing motor, axis 1 Continued NoteAction CAUTION The motor weighs 29 kg! All lifting equipment used must be sized accordingly! 2 Connect to connector R2.MP1"
+        }
+      },
+      {
+        "score": 0.4544433653354645,
+        "metadata": {
+          "source": "temp_uploads\\3HAC028197-PM-IRB-6660-en.pdf",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "the motor. 6 \u2022 A: Attachment screw (4pcs) Mercasol 3106 \u2022 B: Motor unit \u2022 C: O-ring \u2022 D: Sikaflex in screw recesses \u2022 E: Tilt house \u2022 F: Washer \u2022 G: Rear motor cover \u2022 H: Sealing \u2022 J: Loctite 574 Apply Mercasol 3106 on the motor end cover.7 Continues on next page Product manual - IRB 6660 303 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.6.5 Replacement of motor, axis 6 Continued NoteAction xx1400000992 Apply Loctite 574 flange sealant on the contact surface. 8 Apply grease on the o-ring on the motor.9 Continue to refit the new motor according to section, Refitting, motor on page 300 . 10 304 Product manual - IRB 6660 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.6.5 Replacement of motor, axis 6 Continued 4.7 Gearboxes 4.7.1 Replacing the axis 1 gearbox Location of gearbox The axis 1 gearbox is located between the frame and base as shown in the figure. xx0700000074 Gearbox, axis 1A FrameB BaseC Attachment screws gearbox axis 1, M12x70 quality 12.9 UNBRAKO (24 pcs)D Attachment screws gearbox axis 1, M16x90 quality 12.9 UNBRAKO (18 pcs)E Required equipment NoteArt. no.Equipment, etc. Includes: \u2022 gearbox \u2022 all o-rings and sealing rings For spare part no. see: \u2022 Spare part lists on page 385. Gearbox Replace if damaged!3HAB3772-54O-ring Replace if damaged!3HAB3772-55O-ring Replace if damaged!3HAC11581-4Sealing ring Shell Gadus S23HAC042536-001Grease For lubricating the o-ring. 3HAC15535-1Support, base and gear 1 Continues on next page Product manual - IRB 6660 305 3HAC028197-001 Revision: AB \u00a9 Copyright 2007-2022 ABB. All rights reserved. 4 Repair 4.7.1 Replacing the axis 1 gearbox NoteArt. no.Equipment, etc. 3HAC15560-1Lifting accessory, base 3HAC15556-1Lifting accessory (chain) 2 pcs, M16x150.Guide pins Used for guiding the gearbox into place in the base. Always use guide pins in pairs! Complete kit that also includes op- erating manual. 3HAC15716-1Calibration Pendulum toolkit Required if Calibration Pendulum is the valid calibration method for the robot. Delivered as a set of calibration tools. 3HAC055412-001Calibration tool box, Axis Calibration Required if Axis Calibration is the valid calibration method for the ro- bot. Content is defined in section Standard tools on page 379 . -Standard toolkit These procedures include refer- ences to the tools required. Other tools and procedures may be required. See refer- ences to these procedures in the step-by-step instruc- tions below. Deciding calibration routine Decide which calibration routine to be used, based on the information in the table. Depending on which routine is chosen, action might be required prior to beginning the repair work of the robot, see the table. NoteAction Decide which calibration routine to use for calibrating the robot. \u2022 Reference calibration. External cable packages (DressPack) and tools can stay fitted on the robot. \u2022 Fine calibration. All external cable packages ( DressPack) and tools must be removed from the robot. 1 Follow the instructions given in the refer- ence calibration routine on the FlexPendant to create reference values. If the robot is to be calibrated with refer- ence"
+        }
+      }
+    ]
+  },
+  {
+    "id": "35fa9b2a-b7c8-4d80-b19c-983bcefa9bbc",
+    "query": "hi",
+    "response": "To answer the question, the Industrial Troubleshooting Assistant's role in the proposed system is to provide safety-focused, direct, and visual inspections of external checks, HMI resets, and visual inspections. The role also involves strict rules for safety, strict structure, and strict rules for structure. The system's proposed use case involves multi-machine deployment, and the proposed system provides quantitative, repeatable, and storable pressure data, which can detect changes in pressure distribution over time, indicate tool wear, and detect multi-machine deployment. The proposed system also includes environmental robustness testing in oily conditions and portable and cost-effective advantages. The proposed system's limitations include nonlinearity of FSR response, limited maximum force without load spreaders, and temperature sensitivity. Future developments may include extension to higher press forces using force distribution layers and integration with machine controllers.",
+    "rating": 1,
+    "context": [
+      {
+        "score": -0.03528841957449913,
+        "metadata": {
+          "source": "temp_uploads\\Fsr-based Pressure Mapping System For Industrial Tool Profile Analysis.docx",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "applied normal force. It typically consists of: - A conductive polymer layer embedded with conductive particles - Interdigitated electrodes printed on a substrate When force is applied, the conductive particles come into closer contact, forming additional conductive paths and reducing resistance. 3.2 Force\u2013Resistance Relationship The resistance-force relationship of an FSR can be approximated by: R(F) = k \u00b7 F^(-n) where: - R is the sensor resistance - F is the applied normal force - k and n are empirically determined constants This nonlinear relationship necessitates calibration and compensation for accurate force estimation. 3.3 Pressure Calculation Pressure (P) is defined as: P = F / A where A is the effective sensing area of each FSR cell. By arranging multiple FSR elements in a matrix, spatial pressure distribution across a tool surface can be derived. 4. System Architecture 4.1 Mechanical Design The proposed system consists of: - A flexible FSR matrix sheet arranged in a grid pattern - A protective elastomeric top layer for force distribution - A rigid backing plate for reference flatness - Sealed enclosure to protect against oil and dust The sensor assembly is designed to be placed between the tool and a reference surface during a controlled press cycle. 4.2 Sensor Matrix Configuration Each FSR element represents a discrete pressure sensing node. The matrix resolution is selected based on tool size and required spatial accuracy. A multiplexed scanning approach is used to minimize wiring complexity. 4.3 Electronics and Data Acquisition The system employs: - Voltage divider circuits for resistance-to-voltage conversion - Analog multiplexers for row/column scanning - A microcontroller with ADC for data acquisition - USB or industrial communication interface for data transfer 5. Auto-Calibration Methodology FSRs are subject to drift, hysteresis, and sensitivity variation. To address this, an auto-calibration procedure is implemented: Zero-force calibration: Sensor baseline recorded without load Reference press calibration: Known reference load applied Per-cell normalization: Compensation for sensitivity variation Drift correction: Periodic recalibration based on baseline shift This calibration process is tool-specific and automatically initiated by the software, eliminating manual intervention. 6. Signal Processing and Data Interpretation 6.1 Raw Data Conditioning Raw ADC values are filtered using: - Moving average filters to reduce noise - Thresholding to remove spurious contacts 6.2 Pressure Mapping Algorithm Calibrated sensor values are converted into pressure values and mapped onto a 2D grid corresponding to the tool surface. Interpolation techniques are used to generate continuous pressure contours. 6.3 Flatness and Uneven Load Detection Flatness deviation is quantified by analyzing: - Pressure variance across the matrix - Localized high-pressure regions - Edge-to-center pressure gradients These metrics provide direct insight into tool misalignment or surface damage. 7. Industrial Applications 7.1 Tool Setup and Qualification The system enables rapid tool alignment during machine setup without trial presses or manual inspection. 7.2 Replacement of Blue Paper Trials Unlike blue paper, the proposed system provides quantitative, repeatable, and storable pressure data. 7.3 Tool Wear and Damage Detection Changes in pressure distribution over time indicate tool wear, chipping, or deformation. 7.4 Multi-Machine Deployment A"
+        }
+      },
+      {
+        "score": -0.041374050080776215,
+        "metadata": {
+          "source": "temp_uploads\\Fsr-based Pressure Mapping System For Industrial Tool Profile Analysis.docx",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "FSR-Based Pressure Mapping System for Industrial Tool Profile Analysis in Industrial Press and Robotic Applications Abstract Accurate assessment of pressure distribution and flatness of industrial tools such as press heads and robotic end-effectors (EOTs) is critical for ensuring product quality, reducing setup time, and minimizing tool wear. Traditional methods such as blue paper trials and coordinate measuring machines (CMMs) are time-consuming, operator-dependent, and unsuitable for real-time or in-situ measurements. This paper presents a novel industrial pressure mapping system based on a Force Sensitive Resistor (FSR) matrix designed specifically for low-to-moderate industrial press forces (up to 10 kg). The proposed system integrates a mechanically protected, auto-calibrating FSR matrix with dedicated signal conditioning and data processing algorithms to generate quantitative pressure distribution and flatness maps of tool profiles. The system enables rapid tool setup, eliminates skilled manual inspection, supports multi-machine deployment, and provides automatic digital reporting. Fundamental sensing physics, mechanical design considerations, calibration methodology, signal processing, and industrial applicability are discussed in detail. Keywords FSR matrix, pressure mapping, tool flatness, industrial metrology, robotic end-effector, press tool qualification, auto-calibration 1. Introduction In industrial manufacturing environments, uniform pressure distribution across tool surfaces is essential for consistent product quality, reduced defect rates, and extended tool life. Press tools and robotic end-effectors often suffer from uneven load distribution due to machining tolerances, wear, misalignment, or improper setup. Currently, verification of tool flatness and contact uniformity is performed using methods such as blue paper contact trials, manual feeler gauges, or off-machine CMM inspection. These methods exhibit several limitations: - High dependency on skilled operators - Trial-and-error adjustment cycles - Lack of quantitative pressure data - Inability to store or analyze historical tool health - Production downtime during tool validation To overcome these limitations, this research proposes an FSR-based pressure mapping system optimized for industrial tooling applications, providing rapid, repeatable, and quantitative assessment directly on the machine. 2. Background and Related Work Pressure sensing technologies are widely used in medical gait analysis, robotic tactile sensing, and consumer electronics. Capacitive, piezoelectric, and resistive sensors have been explored for contact force measurement. FSRs, in particular, offer advantages of low cost, thin profile, mechanical flexibility, and ease of integration. However, most existing FSR-based pressure mapping solutions are designed for human interaction (foot mats, seating analysis) and are unsuitable for industrial environments due to: - Poor protection against oil and dust - Lack of calibration mechanisms - Limited mechanical robustness - Absence of industrial data interpretation This work extends FSR technology into the domain of industrial tool qualification by addressing these limitations through mechanical adaptation, auto-calibration, and application-specific data processing. 3. Fundamental Physics of Force Sensitive Resistors 3.1 Operating Principle An FSR is a piezoresistive device whose electrical resistance decreases with increasing applied normal force. It typically consists of: - A conductive polymer layer embedded with conductive particles - Interdigitated electrodes printed on a substrate When force is applied, the conductive particles come into closer contact, forming additional conductive paths and reducing resistance. 3.2 Force\u2013Resistance Relationship The resistance-force relationship of an FSR"
+        }
+      },
+      {
+        "score": -0.041752927005290985,
+        "metadata": {
+          "source": "temp_uploads\\Fsr-based Pressure Mapping System For Industrial Tool Profile Analysis.docx",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "during machine setup without trial presses or manual inspection. 7.2 Replacement of Blue Paper Trials Unlike blue paper, the proposed system provides quantitative, repeatable, and storable pressure data. 7.3 Tool Wear and Damage Detection Changes in pressure distribution over time indicate tool wear, chipping, or deformation. 7.4 Multi-Machine Deployment A single sensing system can be used across multiple machines with software-controlled tool profile selection. 8. Experimental Validation (Proposed) Planned experiments include: - Validation of pressure accuracy using calibrated weights - Repeatability testing across multiple press cycles - Comparison with blue paper contact patterns - Environmental robustness testing in oily conditions 9. Advantages and Limitations Advantages Eliminates skilled manual inspection Reduces setup time Provides digital traceability Portable and cost-effective Limitations Nonlinearity of FSR response Limited maximum force without load spreaders Temperature sensitivity 10. Future Work Future developments include: - Extension to higher press forces using force distribution layers - Integration with machine controllers - Predictive maintenance using historical data analytics - 3D pressure reconstruction for complex tool geometries 11. Conclusion This paper presents a comprehensive industrial pressure mapping system using an FSR matrix for tool profile analysis. By combining mechanical adaptation, auto-calibration, and dedicated signal processing, the proposed solution overcomes the limitations of traditional inspection methods. The system offers a practical, scalable, and industry-ready approach to digital tool qualification and flatness assessment. References Interlink Electronics, \u201cFSR Integration Guide and Evaluation Parts Catalog.\u201d D. De Rossi et al., \u201cPiezoresistive sensors for robotic applications,\u201d Sensors and Actuators A. R. S. Dahiya and M. Valle, \u201cRobotic Tactile Sensing,\u201d Springer, 2013. J. Fraden, \u201cHandbook of Modern Sensors,\u201d Springer."
+        }
+      }
+    ]
+  },
+  {
+    "id": "df165573-82bc-4ba8-a4f3-01b6e3a5ee32",
+    "query": "what is FSR",
+    "response": "The proposed industrial pressure mapping system based on a force-sensitive resistor (FSR) matrix and dedicated signal conditioning and data processing algorithms is designed to generate quantitative pressure distribution and flatness maps of tool profiles. The system enables rapid tool setup, eliminates skilled manual inspection, supports multi-machine deployment, and provides automatic digital reporting. The proposed system provides quantitative, repeatable, and storable pressure data, replaces blue paper trials, and multi-machine deployment. The system is planned to be validated in multiple press cycles, in oily conditions, and with environmental robustness testing. The system's limitations include nonlinearity of FSR response, limited maximum force without load spreaders, and temperature sensitivity. Future developments include extension to higher press forces using force distribution layers and integration with machine controllers.",
+    "rating": 1,
+    "context": [
+      {
+        "score": 0.3122255206108093,
+        "metadata": {
+          "source": "temp_uploads\\Fsr-based Pressure Mapping System For Industrial Tool Profile Analysis.docx",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "applied normal force. It typically consists of: - A conductive polymer layer embedded with conductive particles - Interdigitated electrodes printed on a substrate When force is applied, the conductive particles come into closer contact, forming additional conductive paths and reducing resistance. 3.2 Force\u2013Resistance Relationship The resistance-force relationship of an FSR can be approximated by: R(F) = k \u00b7 F^(-n) where: - R is the sensor resistance - F is the applied normal force - k and n are empirically determined constants This nonlinear relationship necessitates calibration and compensation for accurate force estimation. 3.3 Pressure Calculation Pressure (P) is defined as: P = F / A where A is the effective sensing area of each FSR cell. By arranging multiple FSR elements in a matrix, spatial pressure distribution across a tool surface can be derived. 4. System Architecture 4.1 Mechanical Design The proposed system consists of: - A flexible FSR matrix sheet arranged in a grid pattern - A protective elastomeric top layer for force distribution - A rigid backing plate for reference flatness - Sealed enclosure to protect against oil and dust The sensor assembly is designed to be placed between the tool and a reference surface during a controlled press cycle. 4.2 Sensor Matrix Configuration Each FSR element represents a discrete pressure sensing node. The matrix resolution is selected based on tool size and required spatial accuracy. A multiplexed scanning approach is used to minimize wiring complexity. 4.3 Electronics and Data Acquisition The system employs: - Voltage divider circuits for resistance-to-voltage conversion - Analog multiplexers for row/column scanning - A microcontroller with ADC for data acquisition - USB or industrial communication interface for data transfer 5. Auto-Calibration Methodology FSRs are subject to drift, hysteresis, and sensitivity variation. To address this, an auto-calibration procedure is implemented: Zero-force calibration: Sensor baseline recorded without load Reference press calibration: Known reference load applied Per-cell normalization: Compensation for sensitivity variation Drift correction: Periodic recalibration based on baseline shift This calibration process is tool-specific and automatically initiated by the software, eliminating manual intervention. 6. Signal Processing and Data Interpretation 6.1 Raw Data Conditioning Raw ADC values are filtered using: - Moving average filters to reduce noise - Thresholding to remove spurious contacts 6.2 Pressure Mapping Algorithm Calibrated sensor values are converted into pressure values and mapped onto a 2D grid corresponding to the tool surface. Interpolation techniques are used to generate continuous pressure contours. 6.3 Flatness and Uneven Load Detection Flatness deviation is quantified by analyzing: - Pressure variance across the matrix - Localized high-pressure regions - Edge-to-center pressure gradients These metrics provide direct insight into tool misalignment or surface damage. 7. Industrial Applications 7.1 Tool Setup and Qualification The system enables rapid tool alignment during machine setup without trial presses or manual inspection. 7.2 Replacement of Blue Paper Trials Unlike blue paper, the proposed system provides quantitative, repeatable, and storable pressure data. 7.3 Tool Wear and Damage Detection Changes in pressure distribution over time indicate tool wear, chipping, or deformation. 7.4 Multi-Machine Deployment A"
+        }
+      },
+      {
+        "score": 0.28688207268714905,
+        "metadata": {
+          "source": "temp_uploads\\Fsr-based Pressure Mapping System For Industrial Tool Profile Analysis.docx",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "FSR-Based Pressure Mapping System for Industrial Tool Profile Analysis in Industrial Press and Robotic Applications Abstract Accurate assessment of pressure distribution and flatness of industrial tools such as press heads and robotic end-effectors (EOTs) is critical for ensuring product quality, reducing setup time, and minimizing tool wear. Traditional methods such as blue paper trials and coordinate measuring machines (CMMs) are time-consuming, operator-dependent, and unsuitable for real-time or in-situ measurements. This paper presents a novel industrial pressure mapping system based on a Force Sensitive Resistor (FSR) matrix designed specifically for low-to-moderate industrial press forces (up to 10 kg). The proposed system integrates a mechanically protected, auto-calibrating FSR matrix with dedicated signal conditioning and data processing algorithms to generate quantitative pressure distribution and flatness maps of tool profiles. The system enables rapid tool setup, eliminates skilled manual inspection, supports multi-machine deployment, and provides automatic digital reporting. Fundamental sensing physics, mechanical design considerations, calibration methodology, signal processing, and industrial applicability are discussed in detail. Keywords FSR matrix, pressure mapping, tool flatness, industrial metrology, robotic end-effector, press tool qualification, auto-calibration 1. Introduction In industrial manufacturing environments, uniform pressure distribution across tool surfaces is essential for consistent product quality, reduced defect rates, and extended tool life. Press tools and robotic end-effectors often suffer from uneven load distribution due to machining tolerances, wear, misalignment, or improper setup. Currently, verification of tool flatness and contact uniformity is performed using methods such as blue paper contact trials, manual feeler gauges, or off-machine CMM inspection. These methods exhibit several limitations: - High dependency on skilled operators - Trial-and-error adjustment cycles - Lack of quantitative pressure data - Inability to store or analyze historical tool health - Production downtime during tool validation To overcome these limitations, this research proposes an FSR-based pressure mapping system optimized for industrial tooling applications, providing rapid, repeatable, and quantitative assessment directly on the machine. 2. Background and Related Work Pressure sensing technologies are widely used in medical gait analysis, robotic tactile sensing, and consumer electronics. Capacitive, piezoelectric, and resistive sensors have been explored for contact force measurement. FSRs, in particular, offer advantages of low cost, thin profile, mechanical flexibility, and ease of integration. However, most existing FSR-based pressure mapping solutions are designed for human interaction (foot mats, seating analysis) and are unsuitable for industrial environments due to: - Poor protection against oil and dust - Lack of calibration mechanisms - Limited mechanical robustness - Absence of industrial data interpretation This work extends FSR technology into the domain of industrial tool qualification by addressing these limitations through mechanical adaptation, auto-calibration, and application-specific data processing. 3. Fundamental Physics of Force Sensitive Resistors 3.1 Operating Principle An FSR is a piezoresistive device whose electrical resistance decreases with increasing applied normal force. It typically consists of: - A conductive polymer layer embedded with conductive particles - Interdigitated electrodes printed on a substrate When force is applied, the conductive particles come into closer contact, forming additional conductive paths and reducing resistance. 3.2 Force\u2013Resistance Relationship The resistance-force relationship of an FSR"
+        }
+      },
+      {
+        "score": 0.16067953407764435,
+        "metadata": {
+          "source": "temp_uploads\\Fsr-based Pressure Mapping System For Industrial Tool Profile Analysis.docx",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "during machine setup without trial presses or manual inspection. 7.2 Replacement of Blue Paper Trials Unlike blue paper, the proposed system provides quantitative, repeatable, and storable pressure data. 7.3 Tool Wear and Damage Detection Changes in pressure distribution over time indicate tool wear, chipping, or deformation. 7.4 Multi-Machine Deployment A single sensing system can be used across multiple machines with software-controlled tool profile selection. 8. Experimental Validation (Proposed) Planned experiments include: - Validation of pressure accuracy using calibrated weights - Repeatability testing across multiple press cycles - Comparison with blue paper contact patterns - Environmental robustness testing in oily conditions 9. Advantages and Limitations Advantages Eliminates skilled manual inspection Reduces setup time Provides digital traceability Portable and cost-effective Limitations Nonlinearity of FSR response Limited maximum force without load spreaders Temperature sensitivity 10. Future Work Future developments include: - Extension to higher press forces using force distribution layers - Integration with machine controllers - Predictive maintenance using historical data analytics - 3D pressure reconstruction for complex tool geometries 11. Conclusion This paper presents a comprehensive industrial pressure mapping system using an FSR matrix for tool profile analysis. By combining mechanical adaptation, auto-calibration, and dedicated signal processing, the proposed solution overcomes the limitations of traditional inspection methods. The system offers a practical, scalable, and industry-ready approach to digital tool qualification and flatness assessment. References Interlink Electronics, \u201cFSR Integration Guide and Evaluation Parts Catalog.\u201d D. De Rossi et al., \u201cPiezoresistive sensors for robotic applications,\u201d Sensors and Actuators A. R. S. Dahiya and M. Valle, \u201cRobotic Tactile Sensing,\u201d Springer, 2013. J. Fraden, \u201cHandbook of Modern Sensors,\u201d Springer."
+        }
+      }
+    ]
+  },
+  {
+    "id": "77437fdf-0790-47d3-b974-5a176572409a",
+    "query": "how to solve PLC communication error",
+    "response": "Response:\n\nSure, I'd be happy to provide more information on how to solve PLC communication errors:\n\n1. Check the connection: Make sure that the PLC is connected to the motor controller and that the motor controller is connected to the power supply. If one of these connections is faulty, the communication may be lost or unstable.\n\n2. Reboot the PLC: First, power off the PLC and unplug it from the power supply. Then, turn the power supply back on and power the PLC back on. If this doesn't solve the problem, you may need to reinstall the PLC software or update it to the latest version.\n\n3. Verify the communication protocol: Double-check the communication protocol between the PLC and the motor controller. Ensure that the protocol is compatible with your motor controller's specifications and that the data is being transmitted correctly.\n\n4. Check the PLC's settings: Check the PLC's settings to ensure that the communication settings are correct. If the communication is set up correctly, ensure that the PLC's settings are consistent with your motor controller's default settings.\n\n5. Perform a test: If the communication error persists after following these steps, perform a test to see if the faulty connection is the cause. You can try to connect the PLC to the motor controller and see if the communication works.\n\nI hope this helps! Let me know if you have any other questions.",
+    "rating": -1,
+    "context": []
+  },
+  {
+    "id": "04a3d989-b6f7-44be-a54f-244091e3f84d",
+    "query": "make python code for aading two numbers",
+    "response": "I don't have access to your specific project or codebase. However, here is a general guide on how you can create python code for adding two numbers:\n\n1. Define the function `add_numbers` that takes in two integers as input and returns their sum:\n```python\ndef add_numbers(num1, num2):\n    return num1 + num2\n```\n\n2. Create a variable `sum` to store the result of calling `add_numbers`:\n```python\nsum = 0\n```\n\n3. Call the `add_numbers` function with two integers as input and assign its value to `sum`:\n```python\nresult = add_numbers(1, 2)\nprint(\"The sum is:\", result) # output \"The sum is: 3\"\n```\n\n4. You can also use a loop to iterate through each number in the list of numbers and call the `add_numbers` function with its index as an argument:\n```python\nsum = 0\nfor num in range(1, 5):\n    sum += add_numbers(num, num)\nprint(\"The sum is:\", sum) # output \"The sum is: 9\"\n```\n\nremember to indent your code properly and use proper variable names for readability.",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "080f5cd6-e1ba-4425-8886-5e9d992bcb5a",
+    "query": "I am getting S201 error?",
+    "response": "Sure, here's a possible response to the question about what to do if you receive an S201 error:\n\nResponse: If you receive an S201 error during daily testing or preventive maintenance, it means that one of your PLC modules is malfunctioning. Here are some steps to troubleshoot and fix this issue:\n\n1. Check the status of the MCCB (main control board) by turning off all other power sources in the system. If the MCCB turns on automatically after a few seconds, it means that there's no problem with your PLC module. However, if it doesn't turn on or stays off for longer than 10-20 minutes, you may need to replace the MCCB.\n\n2. Check the status of all other power sources in the system by turning them off one at a time until the MCCB turns on automatically again. If this still doesn't work, it means that there's an issue with your PLC module or the wiring between the MCCB and other components.\n\n3. Inspect all connections between the MCCB and other components to ensure they are properly connected and securely tightened. Check for any loose or damaged wire connectors, as this can cause electrical issues in the system.\n\n4. If you're still having trouble with the PLC module, consider replacing it with a new one from a reputable supplier. You may also need to consult your manufacturer's documentation for troubleshooting tips or contact their support team if necessary.\n\n5. Finally, make sure all safety systems are active and functioning properly before resuming daily testing or preventive maintenance. This includes ensuring that the door interlock is working correctly, checking that the emergency stop cuts power to drives and outputs, and verifying that all other safety circuits are",
+    "rating": -1,
+    "context": [
+      {
+        "score": 0.21766145527362823,
+        "metadata": {
+          "source": "temp_uploads\\CNC_Electrical_Manual.docx",
+          "machine": "CNC-01",
+          "subsystem": "Electrical",
+          "chunk_text": "CNC Machine Electrical Manual (Sample) 1. General Information The CNC Machine Electrical System controls motion, safety, and operational logic using PLC, Servo Drives, and I/O modules. It operates on 415V AC and 24V DC control supply. 2. Main Components - Power Supply Unit - SMPS (24V DC) - PLC Controller - Servo Drives (X, Y, Z) - Spindle Drive - Emergency System 3. Electrical Specifications Input Voltage: 415V AC \u00b110% Frequency: 50 Hz Control Voltage: 24V DC Max Current: 25A 4. Safety System Emergency Stop cuts power to drives and outputs. Ensure door interlock and safety circuits are active. 5. Error Codes PLC Errors: E101 - Communication Fault - Check cable E102 - I/O Failure - Replace module E103 - Power Fault - Check SMPS Servo Errors: S201 - Overcurrent - Check load S202 - Encoder Error - Check wiring S203 - Overvoltage - Stabilize supply 6. Preventive Maintenance Daily: Check voltage, wiring Weekly: Tighten terminals Monthly: Insulation test 7. Testing Procedure - Power ON MCCB - Check 24V supply - Verify PLC status - Jog axes for testing 8. Common Faults Machine not ON \u2192 Check MCCB Axis not moving \u2192 Check servo E-stop not resetting \u2192 Check safety loop"
+        }
+      }
+    ]
+  },
+  {
+    "id": "f038bebf-9d8a-4a77-aee4-ec7157e6337d",
+    "query": "i am experiencing  PLC to hmi communiaction error via RS485",
+    "response": "",
+    "rating": -1,
+    "context": []
+  },
+  {
+    "id": "02bdc698-128e-40f9-947d-daea92a88f00",
+    "query": "How do I reset a CNC-01 machine?",
+    "response": "To reset a CNC-01 machine, follow these steps:\n\n1. Turn off the power supply to the machine by unplugging it from the wall outlet or using an external power source (such as a battery pack). 2. Remove all components and accessories from the machine, including any software updates that may be installed on the computer. 3. Disconnect the CNC-01's USB cable from the computer. 4. Turn off the machine by pressing the reset button located at the back of the unit (usually marked with a red LED light). 5. Wait for approximately five minutes before turning on the machine again to ensure that all components have been properly disconnected and powered down. During this time, the CNC-01 will be in a \"reset\" mode, which means it is ready to start up without any errors or issues. Once you've turned off the machine completely, turn it back on by pressing the reset button again. If there are no lights blinking or other indications of an error during this process, your CNC-01 has been successfully reset and can be used for further operations.",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "83ff6739-7d53-4601-83b3-83de8cfcbdda",
+    "query": "what is S201 Error",
+    "response": "The S201 Error is a communication fault that occurs when the PLC encounters an error while communicating with the servo or I/O modules. This can be due to incorrect cable connections, damaged wiring, or other issues with the system's power supply unit (SPU). The preventive maintenance procedure outlined in the CNC Machine Electrical Manual includes checking voltage and wiring regularly, as well as inspecting the PLC status for errors. If any fault is detected during testing, it should be addressed immediately to ensure proper operation of the system.",
+    "rating": -1,
+    "context": [
+      {
+        "source": "temp_uploads\\CNC_Electrical_Manual.docx",
+        "machine": "CNC-02",
+        "subsystem": "Electrical",
+        "chunk_text": "CNC Machine Electrical Manual (Sample) 1. General Information The CNC Machine Electrical System controls motion, safety, and operational logic using PLC, Servo Drives, and I/O modules. It operates on 415V AC and 24V DC control supply. 2. Main Components - Power Supply Unit - SMPS (24V DC) - PLC Controller - Servo Drives (X, Y, Z) - Spindle Drive - Emergency System 3. Electrical Specifications Input Voltage: 415V AC \u00b110% Frequency: 50 Hz Control Voltage: 24V DC Max Current: 25A 4. Safety System Emergency Stop cuts power to drives and outputs. Ensure door interlock and safety circuits are active. 5. Error Codes PLC Errors: E101 - Communication Fault - Check cable E102 - I/O Failure - Replace module E103 - Power Fault - Check SMPS Servo Errors: S201 - Overcurrent - Check load S202 - Encoder Error - Check wiring S203 - Overvoltage - Stabilize supply 6. Preventive Maintenance Daily: Check voltage, wiring Weekly: Tighten terminals Monthly: Insulation test 7. Testing Procedure - Power ON MCCB - Check 24V supply - Verify PLC status - Jog axes for testing 8. Common Faults Machine not ON \u2192 Check MCCB Axis not moving \u2192 Check servo E-stop not resetting \u2192 Check safety loop"
+      }
+    ]
+  },
+  {
+    "id": "fbe870d2-350b-41bd-8865-88e3e7b5d68b",
+    "query": "what is S201 Error",
+    "response": "The S201 Error is a PLC error that indicates an overcurrent condition. The error code can be checked by checking the load and ensuring that it meets safety requirements. It's important to stabilize the supply before performing any maintenance or testing procedures, as this will help prevent further errors from occurring.",
+    "rating": 1,
+    "context": [
+      {
+        "source": "temp_uploads\\CNC_Electrical_Manual.docx",
+        "machine": "CNC-02",
+        "subsystem": "Electrical",
+        "chunk_text": "CNC Machine Electrical Manual (Sample) 1. General Information The CNC Machine Electrical System controls motion, safety, and operational logic using PLC, Servo Drives, and I/O modules. It operates on 415V AC and 24V DC control supply. 2. Main Components - Power Supply Unit - SMPS (24V DC) - PLC Controller - Servo Drives (X, Y, Z) - Spindle Drive - Emergency System 3. Electrical Specifications Input Voltage: 415V AC \u00b110% Frequency: 50 Hz Control Voltage: 24V DC Max Current: 25A 4. Safety System Emergency Stop cuts power to drives and outputs. Ensure door interlock and safety circuits are active. 5. Error Codes PLC Errors: E101 - Communication Fault - Check cable E102 - I/O Failure - Replace module E103 - Power Fault - Check SMPS Servo Errors: S201 - Overcurrent - Check load S202 - Encoder Error - Check wiring S203 - Overvoltage - Stabilize supply 6. Preventive Maintenance Daily: Check voltage, wiring Weekly: Tighten terminals Monthly: Insulation test 7. Testing Procedure - Power ON MCCB - Check 24V supply - Verify PLC status - Jog axes for testing 8. Common Faults Machine not ON \u2192 Check MCCB Axis not moving \u2192 Check servo E-stop not resetting \u2192 Check safety loop"
+      }
+    ]
+  },
+  {
+    "id": "cb6e30a3-7005-4a95-abe0-41af38d6038b",
+    "query": "what is S201 Error",
+    "response": "The S201 Error is a PLC error that indicates an overcurrent condition. The error code can be checked by checking the load, ensuring that it meets safety requirements and stabilizing the supply voltage. This will help to prevent further damage or malfunction of the CNC machine's electrical system.",
+    "rating": 1,
+    "context": [
+      {
+        "source": "temp_uploads\\CNC_Electrical_Manual.docx",
+        "machine": "CNC-02",
+        "subsystem": "Electrical",
+        "chunk_text": "CNC Machine Electrical Manual (Sample) 1. General Information The CNC Machine Electrical System controls motion, safety, and operational logic using PLC, Servo Drives, and I/O modules. It operates on 415V AC and 24V DC control supply. 2. Main Components - Power Supply Unit - SMPS (24V DC) - PLC Controller - Servo Drives (X, Y, Z) - Spindle Drive - Emergency System 3. Electrical Specifications Input Voltage: 415V AC \u00b110% Frequency: 50 Hz Control Voltage: 24V DC Max Current: 25A 4. Safety System Emergency Stop cuts power to drives and outputs. Ensure door interlock and safety circuits are active. 5. Error Codes PLC Errors: E101 - Communication Fault - Check cable E102 - I/O Failure - Replace module E103 - Power Fault - Check SMPS Servo Errors: S201 - Overcurrent - Check load S202 - Encoder Error - Check wiring S203 - Overvoltage - Stabilize supply 6. Preventive Maintenance Daily: Check voltage, wiring Weekly: Tighten terminals Monthly: Insulation test 7. Testing Procedure - Power ON MCCB - Check 24V supply - Verify PLC status - Jog axes for testing 8. Common Faults Machine not ON \u2192 Check MCCB Axis not moving \u2192 Check servo E-stop not resetting \u2192 Check safety loop"
+      }
+    ]
+  },
+  {
+    "id": "651fec3d-62dc-4430-b91d-6eace9463af9",
+    "query": "how ro correct S201 error",
+    "response": "To correct the S201 error, follow these steps:\n\n1. Check voltage and wiring: Inspect the voltage supply to ensure it is at 415V AC and that all cables are connected properly. Verify that there are no loose or damaged wires.\n\n2. Daily testing procedure: Perform daily tests on the power supply unit (PSU) to check for any issues, such as overcurrent or undervoltage. If you notice an issue, immediately shut down and disconnect all cables from the PSU before attempting further troubleshooting.\n\n3. Preventive maintenance: Regularly inspect the PLC controller, servo drives (X, Y, Z), and spindle drive for any signs of wear or damage. If you notice any issues, immediately replace them as needed.\n\n4. Emergency system testing: Ensure that all emergency systems are active and functioning correctly before attempting to restart the machine. Check that the door interlock is working properly and that safety circuits are activated.\n\n5. Error codes: Review the PLC error codes for S201, which indicate a communication fault or I/O failure. If you notice any errors, refer to the manufacturer's manual for further troubleshooting steps.\n\n6. Preventive maintenance: Regularly inspect and maintain all electrical components of the machine, including wiring, terminal blocks, and power supply units (PSUs). Check that all connections are secure and that cables are not damaged or loose.\n\n7. Daily testing procedure: Perform daily tests on the PLC controller to ensure it is functioning correctly. If you notice any issues, immediately shut down and disconnect all cables from the PSU before attempting further troubleshooting.\n\nBy following these steps, you can quickly identify and correct S201 errors in your C",
+    "rating": 1,
+    "context": [
+      {
+        "source": "temp_uploads\\CNC_Electrical_Manual.docx",
+        "machine": "CNC-02",
+        "subsystem": "Electrical",
+        "chunk_text": "CNC Machine Electrical Manual (Sample) 1. General Information The CNC Machine Electrical System controls motion, safety, and operational logic using PLC, Servo Drives, and I/O modules. It operates on 415V AC and 24V DC control supply. 2. Main Components - Power Supply Unit - SMPS (24V DC) - PLC Controller - Servo Drives (X, Y, Z) - Spindle Drive - Emergency System 3. Electrical Specifications Input Voltage: 415V AC \u00b110% Frequency: 50 Hz Control Voltage: 24V DC Max Current: 25A 4. Safety System Emergency Stop cuts power to drives and outputs. Ensure door interlock and safety circuits are active. 5. Error Codes PLC Errors: E101 - Communication Fault - Check cable E102 - I/O Failure - Replace module E103 - Power Fault - Check SMPS Servo Errors: S201 - Overcurrent - Check load S202 - Encoder Error - Check wiring S203 - Overvoltage - Stabilize supply 6. Preventive Maintenance Daily: Check voltage, wiring Weekly: Tighten terminals Monthly: Insulation test 7. Testing Procedure - Power ON MCCB - Check 24V supply - Verify PLC status - Jog axes for testing 8. Common Faults Machine not ON \u2192 Check MCCB Axis not moving \u2192 Check servo E-stop not resetting \u2192 Check safety loop"
+      }
+    ]
+  },
+  {
+    "id": "4ffc511e-ab07-4fef-a4f6-71bcfe81218d",
+    "query": "My CNC machine is showing an E302 error, what should I check?",
+    "response": "To answer the question, you should check the following:\n1. Communication fault - Check cable and ensure that all cables are connected properly.\n2. Power fault - Ensure that the power supply unit (PSU) is functioning correctly by checking voltage and wiring.\n3. Overcurrent error - Inspect the load for any signs of overloading or excessive current draw, such as a damaged motor or bad drive belt.\n4. Encoder errors - Check the encoders to ensure they are working properly and that there is no damage or loose connections.\n5. Wiring issues - Verify all wires and connectors are securely attached to the PSU and other components.\n6. Overvoltage error - Stabilize the supply by turning off power for a few minutes, then re-establishing it. Check voltage readings on your test equipment or meter before proceeding with any work.\n7. PLC status - Verify that all safety loops are functioning correctly and that there is no damage to the PLC controller or servo drives.\n8. Servo errors - Inspect the servo motors for signs of wear, damage, or loose connections. Check the servo drive settings if necessary.",
+    "rating": 1,
+    "context": [
+      {
+        "source": "temp_uploads\\CNC_Electrical_Manual.docx",
+        "machine": "CNC-02",
+        "subsystem": "Electrical",
+        "chunk_text": "CNC Machine Electrical Manual (Sample) 1. General Information The CNC Machine Electrical System controls motion, safety, and operational logic using PLC, Servo Drives, and I/O modules. It operates on 415V AC and 24V DC control supply. 2. Main Components - Power Supply Unit - SMPS (24V DC) - PLC Controller - Servo Drives (X, Y, Z) - Spindle Drive - Emergency System 3. Electrical Specifications Input Voltage: 415V AC \u00b110% Frequency: 50 Hz Control Voltage: 24V DC Max Current: 25A 4. Safety System Emergency Stop cuts power to drives and outputs. Ensure door interlock and safety circuits are active. 5. Error Codes PLC Errors: E101 - Communication Fault - Check cable E102 - I/O Failure - Replace module E103 - Power Fault - Check SMPS Servo Errors: S201 - Overcurrent - Check load S202 - Encoder Error - Check wiring S203 - Overvoltage - Stabilize supply 6. Preventive Maintenance Daily: Check voltage, wiring Weekly: Tighten terminals Monthly: Insulation test 7. Testing Procedure - Power ON MCCB - Check 24V supply - Verify PLC status - Jog axes for testing 8. Common Faults Machine not ON \u2192 Check MCCB Axis not moving \u2192 Check servo E-stop not resetting \u2192 Check safety loop"
+      }
+    ]
+  },
+  {
+    "id": "8f3553a2-e307-4fb2-b45d-72f976a9ee13",
+    "query": "My CNC machine is showing an E302 error, what should I check?",
+    "response": "To answer the question, you should check if there are any faults with your CNC machine's power supply unit (PSU), PLC controller, servo drives, spindle drive, and emergency system. Ensure that all components are functioning properly and that they meet safety standards. If you find any issues or concerns, consult the manufacturer for further guidance on how to troubleshoot them.",
+    "rating": 1,
+    "context": [
+      {
+        "source": "temp_uploads\\CNC_Electrical_Manual.docx",
+        "machine": "CNC-02",
+        "subsystem": "Electrical",
+        "chunk_text": "CNC Machine Electrical Manual (Sample) 1. General Information The CNC Machine Electrical System controls motion, safety, and operational logic using PLC, Servo Drives, and I/O modules. It operates on 415V AC and 24V DC control supply. 2. Main Components - Power Supply Unit - SMPS (24V DC) - PLC Controller - Servo Drives (X, Y, Z) - Spindle Drive - Emergency System 3. Electrical Specifications Input Voltage: 415V AC \u00b110% Frequency: 50 Hz Control Voltage: 24V DC Max Current: 25A 4. Safety System Emergency Stop cuts power to drives and outputs. Ensure door interlock and safety circuits are active. 5. Error Codes PLC Errors: E101 - Communication Fault - Check cable E102 - I/O Failure - Replace module E103 - Power Fault - Check SMPS Servo Errors: S201 - Overcurrent - Check load S202 - Encoder Error - Check wiring S203 - Overvoltage - Stabilize supply 6. Preventive Maintenance Daily: Check voltage, wiring Weekly: Tighten terminals Monthly: Insulation test 7. Testing Procedure - Power ON MCCB - Check 24V supply - Verify PLC status - Jog axes for testing 8. Common Faults Machine not ON \u2192 Check MCCB Axis not moving \u2192 Check servo E-stop not resetting \u2192 Check safety loop"
+      }
+    ]
+  },
+  {
+    "id": "ccfd76cd-a967-4a1a-aba0-3eb63caaf009",
+    "query": "what is E201 error",
+    "response": "Answer: E201 error is a common issue that occurs when attempting to connect or power up an electrical device. It usually indicates a problem with the electrical wiring, such as loose connections or damaged insulation. The user should perform external checks and HMI resets before proceeding with further troubleshooting steps.",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "017c46bb-2d55-4356-99a4-1f01e6fa2d9e",
+    "query": "what is s201 error",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "eec2aa08-526f-4f84-aca0-977197a2b1a4",
+    "query": "what is e101 error",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "d5b1dc5f-a4a8-4deb-884f-504d98c88583",
+    "query": "how to clear the servo overcurrent issue",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "39438237-5d8b-4ab6-a8c0-32dfbd44e243",
+    "query": "how to clear s203 error",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "e4b01830-b55a-4397-a681-6c92b0b6029a",
+    "query": "what all are the Preventive Maintenance",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "fc0f8dbc-6b6d-4501-913d-4a163aafc99f",
+    "query": "what is e101",
+    "response": "...",
+    "rating": -1,
+    "context": []
+  },
+  {
+    "id": "8254aba5-7bee-43ad-bfed-458f18983d77",
+    "query": "describe image",
+    "response": "...",
+    "rating": -1,
+    "context": []
+  },
+  {
+    "id": "f5940c14-ed61-4db4-ae88-5d01c22af135",
+    "query": "describe the image attached",
+    "response": "...",
+    "rating": -1,
+    "context": []
+  },
+  {
+    "id": "e3a21b20-d81c-4f6f-8871-280474db6e68",
+    "query": "summary of the image",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "7923c770-359a-4245-ae77-832b1e9d4fca",
+    "query": "how to clear S201 error",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "cfe9f9a9-e268-4e5f-a68a-d653d8832467",
+    "query": "i am getting excess virbation from motor what should i do",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "75ee2f15-fb75-4e13-bdbe-b95700044f22",
+    "query": "i am getting low torque output what should i do?",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "1323f5f6-f749-48f7-8579-1b0f4e513e38",
+    "query": "servo error",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "876cc1e7-3bd8-4040-b0af-0f79785b9c66",
+    "query": "i am getting robot communication error in PLC, communiaction is TCP/IP mode",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  },
+  {
+    "id": "67f03528-3b9d-4fe1-8e44-d7276addca7b",
+    "query": "i am getting PLC to HMI communication error via RS485",
+    "response": "...",
+    "rating": 1,
+    "context": []
+  }
+]
